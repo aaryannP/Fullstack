@@ -1,0 +1,60 @@
+/* Change the background color of the form */
+#contactForm
+{
+    background-color: #f0f4fa;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h2
+{
+    text-align: center;
+    font-weight: 900px;
+}
+/* Add padding and margins to form fields */
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label
+{
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.input-field,
+.input-field textarea {
+    padding: 10px;
+    border: 1px solid #bfc9d1;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Style the submit button with a hover effect */
+#submitBtn 
+{
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#submitBtn:hover {
+    background-color: #357ab8;
+}
